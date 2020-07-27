@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          practice React
+          oh look its a commit!
         </a>
       </header>
     </div>
