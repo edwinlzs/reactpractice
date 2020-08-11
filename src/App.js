@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Button from './components/Button';
+import "./css/app.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          you better watch out
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          oh look its a commit!
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <div className="title">
+          To-do list
+        </div>
+        <div className="add-button">
+          <input className='text-box' type='text' placeholder='Add to list'/>
+          <Button displayText='Add' backgroundColor='#ffc021' fontColor='white'/>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default App;

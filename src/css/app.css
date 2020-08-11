@@ -1,0 +1,19 @@
+.app{
+    text-align: center;
+}
+
+.add-button{
+    margin: auto;
+    width: fit-content;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-box{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
