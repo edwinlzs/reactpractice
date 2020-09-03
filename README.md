@@ -1,1 +1,1 @@
-hi this is my first project
+hi this is solely for my own learning, will update as I progress
